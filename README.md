@@ -1,2 +1,3 @@
 # TheBand
-The band was founded in 2020
+This is a school based project, which was given as an assignment.
+

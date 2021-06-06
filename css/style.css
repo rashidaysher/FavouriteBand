@@ -213,5 +213,14 @@ border-radius: 6px;
 
 }
 
+.Songs .title{
+    position: relative;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+}
+
 
 
