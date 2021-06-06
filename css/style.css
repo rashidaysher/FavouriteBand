@@ -1,0 +1,11 @@
+*{
+    margin: 0;
+    padding: o;
+    font-family: century 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+};
+
+header{
+    background-image: url(../Images/mqdefault_6s.webp);
+    height: 100vh;
+};
