@@ -6,16 +6,18 @@
 }
 
 header{
-    background-image: url('../Images/banner2.jpg');
+    background-image:url('../Images/banner2.jpg');
     background-size: cover;
     height: 100vh;
     background-position: center;
+   
 }
 
 ul{
     list-style-type: none;
     float: right;
     margin-top: 25px;
+    position: fixed;
 
 }
 
@@ -78,8 +80,12 @@ ul li .active{
 }
 
 .btn:hover{
-    background-color: #fff;
+    background-color:crimson;
     color: black;
 
 }
 
+.introduction img{
+    width: 100vh;
+    height: 70vh;
+}
