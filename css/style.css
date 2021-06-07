@@ -223,4 +223,15 @@ border-radius: 6px;
 }
 
 
+ol{
+    list-style-type: none;
+    margin-top: 25px;
+    
 
+}
+.ol li{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
