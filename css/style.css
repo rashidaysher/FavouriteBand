@@ -1,0 +1,198 @@
+body {
+    padding:0;
+    margin:0;
+}
+
+header{
+    background-image:url('../Images/banner2.jpg');
+    background-size: cover;
+    height: 100vh;
+    background-position: center;   
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color:crimson;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #111;
+}
+
+.btnFav {
+  background-color: crimson; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.btnBand {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.container {
+  height: 680px;
+  position: relative;
+  border: 3px rgba(0,0,0,0.5);
+
+}
+
+.center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.band {
+    background-image:url('../Images/giphy.gif');
+    background-size: cover;
+    height: 100vh;
+    background-position: center;   
+    padding:0;
+    margin:0;
+
+}
+
+.text-center {
+  padding-top: 15px;
+  text-align: center;
+  border: 3px rgba(0,0,0,0.5);
+  text-decoration-line: underline;
+  color: white;
+}
+
+
+
+/*Grid*/
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 10px;
+}
+
+
+/*Profile*/
+
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+}
+
+.title {
+  color: grey;
+  font-size: 18px;
+}
+
+button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+a {
+  text-decoration: none;
+  font-size: 22px;
+  color: black;
+}
+
+button:hover, a:hover {
+  opacity: 0.7;
+}
+
+
+div.polaroid {
+  width: 80%;
+  background-color:#fff;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 25px;
+}
+
+div.image-container {
+  text-align: center;
+  padding: 10px 20px;
+}
+
+
+ol {
+  list-style-type: none;
+  background-color: black;
+}
+
+
+
+div.link {
+  font-size: large;
+}
+
+
+.Songs{
+    background-color: crimson;
+}
+
+.grid-item .text a{
+color: cyan;
+}
+
+.grid-item p{
+    color: #fff;
+}
+
+.Members{
+    background-color: black;
+}
+
+.text-center p{
+    /* background-color: #999999; */
+color: #fff;
+}
+
+
