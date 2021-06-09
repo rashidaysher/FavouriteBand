@@ -14,7 +14,7 @@
             <!-- <div class logo>
                 <img src="./Images/logp.jpeg" alt="this is the logo of the rolling stone band">
             </div> -->
-            <ul>
+            <ul class="">
                 <li class="active"> <a href="#home"> Home </a></li>
                 <li><a href="#Band"> The Band</a></li>
                 <li><a href="#Members"> Members</a></li>
@@ -25,10 +25,11 @@
             <h1>Boys 2 Men</h1>
 
         </div>
-        <div class="button">
-            <a href="#Songs" class="btn">Favourite List</a>
-            <a href="#Members" class="btn">Band Bios</a>
-
+        <div class="container">
+            <div class="center">
+                <a href="#Songs" class="btnFav">Favourite List</a>
+                <a href="#Members" class="btnBand">Band Bios</a>
+            </div>
         </div>
 
     </header>
@@ -43,22 +44,20 @@
 
          <!--about section-->
          <section class="Band" id="Band"> 
-            <div class="max-width">
-                <h2 class="title">The Band</h2>
+            <div class="container">
+                <h1 class="text-center" style="font-size: 200%;">The Band</h1>
                 <div class="Band-content">
-                    <div class="column left">
-                        <img src="./Images/banner3.jpg" alt="The band">
-
-                    </div>
-                    <div class="column right">
-                        <div class="text">
+                   
+                    <div class="column righ" style="color: black; font-size: 150%;">
+                        <div class="center">
                             Boyz II Men also known as B2M, is an American boy band from Philadelphia, Pennsylvania, <p>best known for emotional ballads and a cappella harmonies. 
                                 They are currently a trio composed of baritone Nathan
                                  Morris alongside tenors Wanya Morris and Shawn Stockman.est known for emotional ballads and a cappella harmonies. 
                                  They are currently a trio composed of baritone Nathan
                                   Morris alongside tenors Wanya Morris and Shawn Stockman.
                                  .</p>
-                                  <a href="#">Read More</a>
+                                 <a href="#" class="btnBand">Read More</a>
+                               
 
                         </div>
 
@@ -70,84 +69,102 @@
 
         </section>
 
-        <!--start members section -->
-        <section class="Members" id="Members"> 
-            <div class="max-width">
-                <h2 class="title">Members</h2>
-                <div class="carousel">
-                    <div class="card">
-                        <div class="box"></div>
-                        <img src="./Images/800px-Nathan_Morris_cropped.jpg" alt="Narthan Moriss">
-                        <div class="text">Nathan Morris</div>
-                        <p>
-                            born June 18, 1971) is an American singer, businessman, and the founding member of 
+
+ <section class="Members" id="Members"> 
+    <h2 class="text-center">Members</h2>
+      <div class="grid-container">
+  <div class="grid-item">
+       <div class="card">
+            <img src="./Images/800px-Nathan_Morris_cropped.jpg" alt="Narthan Moriss" style="width:100%">
+            <h1>Nathan Morris</h1>
+            <p class="title">born June 18, 1971) is an American singer, businessman, and the founding member of 
                             American band Boyz II Men.[2] He was the host of the show Hit Properties on 
-                            the DIY Network where he bought and renovated a multi-million dollar home
-                        </p>
-                
-                    </div>
-                    <div class="card">
-                        <div class="box"></div>
-                        <img src="./Images/ShawnStockmanHWoFJan2012.jpg" alt="Shawn Stolkman">
-                        <div class="text">Shawn Stalkman</div>
-                        <p>
-                            Stockman recorded a solo album as a side project during the late 1990s, but the LP was never released. 
-                            He has written the songs "Forever", "Hot Thing", and "Let It Go"; the latter of which was played during 
-                            the Showtime film Seventeen Again.
-
-
-                        </p>
-                
-                    </div>
-                    <div class="card">
-                        <div class="box"></div>
-                        <img src="./Images/MichaelMcCaryHWoFJan2012.jpg" alt="Wanya Moriss">
-                        <div class="text">Michale Morris</div>
-                        <p>
-                            born June 18, 1971) is an American singer, businessman, and the founding member of 
-                            American band Boyz II Men.[2] He was the host of the show Hit Properties on 
-                            the DIY Network where he bought and renovated a multi-million dollar home
-                        </p>
-                
-                    </div>
-
-
-                </div>             
-
-
+                            the DIY Network where he bought and renovated a multi-million dollar home</p>
+            <div style="margin: 24px 0;">
+            <a href="#"><i class="fa fa-dribbble"></i></a> 
+            <a href="#"><i class="fa fa-twitter"></i></a>  
+            <a href="#"><i class="fa fa-linkedin"></i></a>  
+            <a href="#"><i class="fa fa-facebook"></i></a> 
             </div>
+            <p><button>Contact</button></p>
+            </div>
+  </div>
+  <div class="grid-item">
+       <div class="card">
+            <img src="./Images/ShawnStockmanHWoFJan2012.jpg" alt="Shawn Stolkman" style="width:100%">
+            <h1>Shawn Stalkman</h1>
+            <p class="title"> Stockman recorded a solo album as a side project during the late 1990s, but the LP was never released. 
+                            He has written the songs "Forever", "Hot Thing", and "Let It Go"; the latter of which was played during 
+                            the Showtime film Seventeen Again.</p>
+            <div style="margin: 24px 0;">
+            <a href="#"><i class="fa fa-dribbble"></i></a> 
+            <a href="#"><i class="fa fa-twitter"></i></a>  
+            <a href="#"><i class="fa fa-linkedin"></i></a>  
+            <a href="#"><i class="fa fa-facebook"></i></a> 
+            </div>
+            <p><button>Contact</button></p>
+            </div>
+  </div>
+  <div class="grid-item">
+       <div class="card">
+            <img src="./Images/MichaelMcCaryHWoFJan2012.jpg" alt="Wanya Moriss" style="width:100%;">
+            <h1>Michale Morris</h1>
+            <p class="title">born June 18, 1971) is an American singer, businessman, and the founding member of 
+                            American band Boyz II Men.[2] He was the host of the show Hit Properties on 
+                            the DIY Network where he bought and renovated a multi-million dollar home</p>
+            <div style="margin: 24px 0;">
+            <a href="#"><i class="fa fa-dribbble"></i></a> 
+            <a href="#"><i class="fa fa-twitter"></i></a>  
+            <a href="#"><i class="fa fa-linkedin"></i></a>  
+            <a href="#"><i class="fa fa-facebook"></i></a> 
+            </div>
+            <p><button>Contact</button></p>
+            </div>
+  </div>  
 
-        </section>
+</div>
+
+
+
+
 
         <section class="Songs" id="Songs"> 
-            <div class="max-width">
-                <h2 class="title">Songs</h2>
-                <div class="Songs-content">
-                    <div class="column left">
-                        <img src="./Images/banner3.jpg" alt="The list song">
 
+            <h2 class="text-center">Songs</h2>
+            <div class="grid-container">
+                <div class="grid-item">
+                     
+
+
+                    <div class="polaroid">
+                    <img src="./Images/album.jpg" alt="The list song" style="width:100%">
+                    <div class="image-container">
+                    <p>Their Songs</p>
                     </div>
-                    <div class="column right">
-                        <div class="text">
-                            <p>by favorite songs and album by the band
-                                <ol class="fav_album">
-                                    <li><a href="https://www.youtube.com/watch?v=zDKO6XYXioc" target="_blank"> End Of The Road </a> </li>
-                                    <li><a href="https://www.youtube.com/watch?v=jSUSFow70no" target="_blank"> On Bended Knee</a></li>
-                                    <li><a href="https://www.youtube.com/watch?v=Koz393gAwjQ" target="_blank">Doing Just Fine</a></li>
-                                    <li><a href="https://www.youtube.com/watch?v=9N9opF-PK5k" target="_blank">Water Runs Dry</a></li>
-                                    <li><a href="https://www.youtube.com/watch?v=ftJrHOiNuBo" target="_blank">More THan You'll Ever Know/a></li>
-                                    <li><a href="https://www.youtube.com/watch?v=9N9opF-PK5k" target="_blank">Colour of Love</a></li>
-                    
-                                </ol>
-                                 </p>
-
-                        </div>
-
                     </div>
 
                 </div>
+                <div class="grid-item">
+                     <div class="text">
+                            <p>By favorite songs and album by the band
+                             
+                                    <div class="link"><a href="https://www.youtube.com/watch?v=zDKO6XYXioc" target="_blank">1. End Of The Road </a> </div>
+                                    <dive class="link"><a href="https://www.youtube.com/watch?v=jSUSFow70no" target="_blank">2. On Bended Knee</a></div>
+                                    <div class="link"><a href="https://www.youtube.com/watch?v=Koz393gAwjQ" target="_blank">3. Doing Just Fine</a></div>
+                                    <div class="link"><a href="https://www.youtube.com/watch?v=9N9opF-PK5k" target="_blank">4. Water Runs Dry</a></div>
+                                    <div class="link"><a href="https://www.youtube.com/watch?v=ftJrHOiNuBo" target="_blank">5. More THan You'll Ever Know</a></div>
+                                    <div class="link"><a href="https://www.youtube.com/watch?v=9N9opF-PK5k" target="_blank">6. Colour of Love</a></div>
+                    
+                            
+                         
 
+                        </div>
+                </div>
             </div>
+
+
+
+        
 
         </section>
 
@@ -183,7 +200,7 @@
         </section> -->
 
         
-        <section class="footer">
+        <section class="text-center" style="color: black">
             <p><span style="font-weight: 600;">Copyright (c) 2021</span> <br>Aisha Rashid</p> 
         </section>
 
