@@ -8,6 +8,7 @@ header{
     background-size: cover;
     height: 100vh;
     background-position: center;   
+    background-attachment: fixed;
 }
 
 ul {
@@ -82,6 +83,7 @@ li a:hover {
 
 .band {
     background-image:url('../Images/giphy.gif');
+    /* background-attachment: fixed; */
     background-size: cover;
     height: 100vh;
     background-position: center;   
