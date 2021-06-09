@@ -151,7 +151,7 @@ button:hover, a:hover {
 
 div.polaroid {
   width: 80%;
-  background-color: crimson;
+  background-color:#fff;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   margin-bottom: 25px;
 }
@@ -174,9 +174,25 @@ div.link {
 }
 
 
+.Songs{
+    background-color: crimson;
+}
 
+.grid-item .text a{
+color: cyan;
+}
 
+.grid-item p{
+    color: #fff;
+}
 
+.Members{
+    background-color: black;
+}
 
+.text-center p{
+    /* background-color: #999999; */
+color: #fff;
+}
 
 
